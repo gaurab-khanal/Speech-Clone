@@ -1,5 +1,3 @@
-import './style.css';
-
 // Initializing variables for Speech to Text
 let text = document.querySelector('textarea');
 let text_value = text.value;
