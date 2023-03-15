@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+.container{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: black;
+  
+}
+
+textarea{
+  background-color: rgb(160, 157, 157);
+  margin-top: -100px;
+  height: 30vh;
+  width: 50vw;
+  color: white;
+  border: none;
+  outline: 0;
+  border-radius: 30px;
+  border: 2px solid rgb(104, 88, 88);
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mic{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(160, 157, 157);
+  background-color: rgb(160, 157, 157);
+  padding: 10px;
+  border-radius: 50%;
+  padding-left: 12px;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.mic:active{
+  color: red;
+  transform: scale(1.5);
+}
+p{
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+h1{
+  color: white;
+}
