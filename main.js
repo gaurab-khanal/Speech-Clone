@@ -1,10 +1,9 @@
-import './style.css';
-
 // Initializing variables for Speech to Text
 let text = document.querySelector('textarea');
 let text_value = text.value;
 let mic = document.getElementById('mic');
 let p = document.querySelector('p');
+let result = document.querySelector('#result');
 
 
 //Set a new SpeechRecognition Object/ Initilize
@@ -50,7 +49,7 @@ form.addEventListener('submit', async(e)=>{
   });
 
   const { completeText } = await response.json();
-  text.value = completeText;
+  result.innerHTML = completeText;
 
   // text to speech starts
   spRec.stop();
