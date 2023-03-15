@@ -34,7 +34,7 @@ spRec.onresult = res => {
 
 const form = document.querySelector('form');
 
-form.addEventListener('submit', async(e)=>{
+mic.addEventListener('mouseup', async(e)=>{
   e.preventDefault();
   const data = new FormData(form);
   p.innerHTML = 'Hold mic To Speak';
