@@ -7,12 +7,16 @@ Follow these steps:
 
    Installing Dependencies:
   ```
-  npm init vite@latest <folder name>
   npm install
-  npm i dotenv express cors openai
   ```
-  Run on local:
+  Before running on local:
+    create .env file and add 
+    ```
+    OPENAI = <YOUR_API_KEY>
+    ```
+   Run on Local: 
   ```
+  
   npm run dev // this runs the frontend
   node server.js // this runs the server
   ```
